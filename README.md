@@ -1,5 +1,7 @@
 # marquee_training
 
+Marquee Training
+
 This repository is configured for automatic GitHub pushes.
 
 ## Auto-push
