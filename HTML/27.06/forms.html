@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <h1 align="center">SPORTS PHYSICAL FORM</h1>
+    <form action="actionpage.html" method="get">
+      <fieldset>
+        <legend>Athlete Information</legend>
+        <ul>
+          <li>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+          </li>
+          <li>
+            <label for="school">School/Team:</label>
+            <input type="text" id="school" name="school" />
+          </li>
+          <li>
+            <label for="sport">Sport:</label>
+            <input type="text" id="sport" name="sport" />
+          </li>
+          <li>
+            <label for="parent">Parent/Guardian:</label>
+            <input type="text" id="parent" name="parent" />
+          </li>
+          <li>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" />
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Medical History</legend>
+        <ul>
+          <li>
+            <label for="history">History Of Concussions:</label>
+            <input type="radio" id="history" name="history" value="yes" />Yes
+            <input type="radio" id="history" name="history" value="no" />No
+          </li>
+          <li>
+            <label for="Surgery">Previous Surgeries:</label>
+            <input type="text" id="Surgery" name="Surgery" />
+          </li>
+          <li>
+            <label for="bone">Any Bone Fractures ?</label>
+            <input type="radio" id="bone" name="bone" value="yes" />Yes
+            <input type="radio" id="bone" name="bone" value="no" />No
+          </li>
+          <li>
+            <label for="Asthma or Breathing Problems"
+              >Asthma or Breathing Problems:</label
+            >
+            <input
+              type="radio"
+              id="Asthma or Breathing Problems"
+              name="Asthma or Breathing Problems"
+              value="yes"
+            />Yes
+            <input
+              type="radio"
+              id="Asthma or Breathing Problems"
+              name="Asthma or Breathing Problems"
+              value="no"
+            />No
+          </li>
+        </ul>
+
+        <h3>Fitness Assessment</h3>
+        <table>
+          <tr>
+            <th>Category</th>
+            <th>Pass</th>
+            <th>Fail</th>
+            <th>Comments</th>
+          </tr>
+          <tr>
+            <td>Cardiovascular</td>
+            <td><input type="radio" name="cardiovascular" value="pass" /></td>
+            <td><input type="radio" name="cardiovascular" value="fail" /></td>
+            <td><input type="text" name="cardiovascular" /></td>
+          </tr>
+          <tr>
+            <td>Flexibility</td>
+            <td><input type="radio" name="flexibility" value="pass" /></td>
+            <td><input type="radio" name="flexibility" value="fail" /></td>
+            <td><input type="text" name="flexibility" /></td>
+          </tr>
+          <tr>
+            <td>Strength</td>
+            <td><input type="radio" name="strength" value="pass" /></td>
+            <td><input type="radio" name="strength" value="fail" /></td>
+            <td><input type="text" name="strength" /></td>
+          </tr>
+          <tr></tr>
+        </table>
+      </fieldset>
+
+      <fieldset>
+        <legend>Doctor Recommendations</legend>
+      </fieldset>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
