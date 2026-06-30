@@ -1,5 +1,5 @@
-# marquee_training
+# marquee_MERN
 
-Marquee Training
+Marquee Training - MERN
 
 Start : 25/06
